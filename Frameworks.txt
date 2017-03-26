@@ -1,0 +1,42 @@
+You can fin TestNG official documentation from below link
+
+http://testng.org/doc/index.html
+
+TestNg is an testing framework and it is a building block for a framework design. Especially in selenium and unit testing, it is same like 
+JUNit. TestNg stands in same line of JUnit with added strong features.Now-a-days people are preferring testNG because of its easyness and 
+friendlyness. 
+Where we use TestNG in developing framework?
+First thing is we can execute test cases in  a batch. we can trigger hundreds of test cases at a time using TestNG libraries and also in 
+some cases you can run only needed few test cases at a time out of hundreds of available one. Basically you can group them and run them 
+seperately in case of different regression and smoke testing.We can have and view excellent reports with the help of TestNG and also you 
+date drive.In general like in traditional frameworks people use excel and lot of API'S excel API'S to get th data from Excel. But with 
+the help of TestNg there is an in-built library to drive data from external source. With the help of annotations in TestNG we can design a neat and 
+robust selenium test cases. It has a good integration with Maven. We can integrate TestNG with external tools as jenkins, maven.
+
+Configure TestNG in eclipse:
+
+testng.org/doc/download.html
+
+Help> Install new software> it will Launch window panel> copy url from above link htt:??beust.com/eclipse and paste it in work with
+space>add> give name as TestNG>OK> Tick the TestNG check box> Next(it will take time to install> Next> accept licence> it will install
+software> click yes Restart eclipse
+
+Chekcing: Windows> Preferences> you can see TestNG
+
+Implementing TestNG:
+File> New> Java Project> Give project name> Create pacakge> Give packet name> Create class> Give Class name> good to go
+
+Class file
+No need to write main function but you can run the program because of testNG library
+But you should write code inside a method if not you get errors.
+Run the code as Run as > TestNG Test ---> executing using TestNG Library
+
+Advantage: We can write multiple test cases in single file
+Execution of test cases is based upon the alphabetical order
+
+Annotations: BeforeTest, AfterTest, BeforeMethod, AfterMethod, Test.
+
+
+
+
+

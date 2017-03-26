@@ -1,0 +1,34 @@
+Soap:
+
+Installation: Google> soapui download> soapui latest releases> navigates to the page
+
+soap - download open source(free version use it for lifetime) and try pro version(licensed you should pay around 
+300$/year to access it) --> inside functionality is same
+Diff between free version and pro version:
+there are some specific set of features with advantages which are available only in pro version like you can
+access features without any navigations i.e., with comfort.
+Download open(free version)source:
+click on download opensource link> it will download> install clicking next next.
+
+Open Soapui:
+eg: calculator webservice
+google it and open
+click on service description which u can see on the top right and copy the link.
+goto soap > click on soap to create new project> give name: calculator> wsdl: paste copied link> click ok
+Expand calculator project where you can see two versions of calculator soap i.e., 1.0 and 1.2. lets go with 1.2 and 
+click on each request and enter values needed and you can see response in the right panel of the project.
+click save all to save the project and choose destination where it need to be saved.
+
+To create test suite:
+Right click on project>create test suite> give name(Calculator Testing)> click ok> calculator testing folder is created>
+right click on it> new test case> give name(adding function)> expand test suite you can see test case> right click on 
+adding function test case> select add step - soap request> specify name (Add)> scroll down and select operation > ok> 
+check create optional content> ok
+[project> collection of test suite> collection of test cases> collection of test steps]
+Now add operation is mapped into steps.
+Usually test suite is created because you can perform validations required to make sure that test case passes all the time
+which is not possible in project level.
+
+How to add validations:
+
+
