@@ -1,0 +1,27 @@
+Appium: mobile automation tools ( other tools: calabash)
+open source
+3 types of os: android, ios and firefox; compatible with any platform(cross-platform)
+selenium works only on web application so appium for mobile application
+
+3 types of application: native, hybrid, mobile web applications.
+native- pure mobile app (mobile app ui is diff from desktop) eg: imo, instagram, lyft
+mobile web- looks like mobile app but works like web applications eg:google chrome
+hybrid- combination of both eg:banking apps
+
+using appium we can work on 2 devices: real(devices which we are using now) and virtual(emulators(when we work on android)
+and simulators(when we work on ios))
+
+appium> we can test app directly without any modifications
+it supports all frameworks
+
+selenium 3.0.1 webdriver we can use for web app testing; by using appium we can test mobile app
+
+appium - client server architecture
+using selenium ed
+JSON wired protocol(conversion >desired capabilities> session object
+
+
+
+Installation:
+
+Google> android sdk download> first link> scroll down to the end and download zip file (command line)> 

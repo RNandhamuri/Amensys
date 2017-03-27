@@ -1,0 +1,18 @@
+Maven - build management tool
+
+
+Installation:
+
+Googel> Maven download search> first apache maven link> download Binary zip archive> Extract the downloaded file and keep 
+it in c drive> set the path in environment variables
+my pc right click> properties> advanced system settings> environment variables> create new variable in ssytem variables> 
+give name: M2_Home and for value paste the maven path> ok > click on path> new> paste maven bin path > ok
+
+open command prompt
+exit from current thing by typing cd..
+c:\>mvn -version [this cehcks version and we can see if its installed properly]
+c:\>mkdir ravali [to create an seperate folder]
+c:\>cd ravali [change directory to ravali folder]
+c:\ravali>mvn archetype:generate
+project will build
+build success
